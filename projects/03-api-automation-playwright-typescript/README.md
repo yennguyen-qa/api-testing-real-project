@@ -1,7 +1,7 @@
 ﻿# Project 03 - API Automation with Playwright and TypeScript
 
 ## Mục Đích Project
-Xây dựng nền tảng API automation có thể mở rộng và dễ bảo trì cho portfolio QA.
+Xây dựng nền tảng API automation có thể mở rộng và dễ bảo trì cho project QA.
 
 ## API Được Kiểm Thử
 API mục tiêu sẽ được chọn và mô tả rõ trước khi viết test chính thức.

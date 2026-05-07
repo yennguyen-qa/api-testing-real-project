@@ -1,8 +1,8 @@
-﻿# Project API Testing - Dự Án Thực Tế
+# Project API Testing - Dự Án Thực Tế
 
 Tên repository: `api-testing-real-project`
 
-## Project Này Dành Cho cá nhân
+## Project Này Dành Cho Cá Nhân
 Repository này được xây dựng cho:
 - Người học QA Manual và QA Automation theo lộ trình thực tế
 - Recruiter và interviewer muốn đánh giá kỹ năng QA một cách nhanh, rõ ràng
@@ -16,7 +16,20 @@ Repository này được xây dựng cho:
 4. Kiểm thử API manual với Postman
 5. Tự động hóa API với Playwright + TypeScript
 6. Tự động hóa UI với Playwright + TypeScript
-7. Tích hợp CI/CD và hoàn thiện portfolio
+7. Tích hợp CI/CD và hoàn thiện project
+
+## Application Under Test
+Project này sử dụng Restful Booker Platform làm hệ thống thực hành kiểm thử.
+
+- Web URL: https://automationintesting.online/
+- API/Postman Collection: Restful Booker Platform
+- Domain: Hotel / Room Booking
+- Test types:
+  - Manual Web Testing
+  - Manual API Testing with Postman
+  - API Automation with Playwright + TypeScript
+  - UI Automation with Playwright + TypeScript
+- Bug tracking: Jira
 
 ## Kỹ Năng Sẽ Thể Hiện Trong Repository
 - Phân tích yêu cầu và tư duy kiểm thử theo rủi ro
@@ -24,13 +37,14 @@ Repository này được xây dựng cho:
 - Thiết kế test scenario và test case có cấu trúc
 - Viết bug report rõ ràng, có bằng chứng
 - Kiểm thử API manual bằng Postman
+- Theo dõi bug bằng Jira và traceability matrix
 - Tự động hóa API bằng Playwright và TypeScript
 - Tự động hóa UI bằng Playwright và TypeScript
 - Tổng hợp kết quả kiểm thử và cải tiến chất lượng
 - Tư duy CI/CD cho kiểm thử tự động trong tương lai
 
 ## Danh Sách Project
-- `projects/01-ecommerce-web-manual-testing`
+- `projects/01-hotel-booking-web-manual-testing`
 - `projects/02-api-manual-testing-postman`
 - `projects/03-api-automation-playwright-typescript`
 - `projects/04-ui-automation-playwright-typescript`
@@ -40,16 +54,19 @@ Repository này được xây dựng cho:
 Giai đoạn hiện tại: **Thiết Lập Khung Project**
 
 Trạng thái tính đến **May 7, 2026**:
-- Đã tạo cấu trúc thư mục chuẩn cho toàn bộ portfolio
-- Đã tạo template tài liệu cốt lõi
+- Đã tạo cấu trúc thư mục chuẩn cho toàn bộ project
+- Đã xác định hệ thống kiểm thử chính: Restful Booker Platform
+- Đã tạo template tài liệu cốt lõi cho manual web và manual API
 - Đã scaffold cấu trúc cho API/UI automation
 - Đã tạo khung thư mục CI/CD
-- Nội dung chi tiết và test thực thi sẽ cập nhật dần theo tiến độ học
+- Nội dung chi tiết, evidence và kết quả test thực tế sẽ được cập nhật dần theo tiến độ học
 
 ## Kế Hoạch Cập Nhật Sắp Tới
-- Hoàn thiện phân tích yêu cầu và test plan cho Project 01
+- Hoàn thiện phân tích yêu cầu và test plan cho Restful Booker Platform
 - Bổ sung test scenario, test case manual và bug report thực tế
 - Thêm Postman collection/environment cho Project 02
+- Ghi nhận Jira key khi phát hiện bug thật
+- Cập nhật traceability giữa test case, bug, evidence và automation candidate
 - Viết bộ test API automation đầu tiên và cấu trúc API client
 - Viết luồng UI automation đầu tiên theo Page Object Model
 - Tích hợp GitHub Actions và/hoặc Azure DevOps
@@ -59,6 +76,7 @@ Trạng thái tính đến **May 7, 2026**:
 - Tài liệu: Markdown
 - Manual testing: tài liệu kiểm thử có cấu trúc và evidence
 - API manual testing: Postman
+- Bug tracking: Jira
 - Automation framework: Playwright
 - Ngôn ngữ: TypeScript
 - Quản lý mã nguồn: Git + GitHub
@@ -69,9 +87,11 @@ Trạng thái tính đến **May 7, 2026**:
 2. Mở README của từng project để xem mục tiêu, phạm vi, trạng thái.
 3. Review các file trong `docs/` để theo dõi quá trình học và triển khai.
 4. Xem lịch sử commit để đánh giá tiến trình phát triển từng bước.
-5. Kiểm tra cấu trúc automation và báo cáo test khi được cập nhật.
+5. Kiểm tra Jira traceability, bug reports và evidence khi được cập nhật.
+6. Kiểm tra cấu trúc automation và báo cáo test khi được cập nhật.
 
-## Nguyên Tắc Xây Dựng 
+## Nguyên Tắc Xây Dựng
 - Trung thực về tiến độ học và mức độ hoàn thành
-- Cập nhật tăng dần
+- Cập nhật tăng dần theo từng bước test thực tế
+- Không tạo evidence giả hoặc bug giả khi chưa thực thi
 - Duy trì cấu trúc dễ hiểu, dễ bảo trì lâu dài

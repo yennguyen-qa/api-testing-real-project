@@ -2,7 +2,7 @@
   "name": "api-automation-playwright-typescript",
   "version": "0.1.0",
   "private": true,
-  "description": "Starter scaffold for API automation portfolio project.",
+  "description": "Starter scaffold for API automation project.",
   "scripts": {
     "test": "playwright test",
     "test:api": "playwright test tests/api",

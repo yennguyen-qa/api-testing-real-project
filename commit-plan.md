@@ -3,9 +3,9 @@
 Mục tiêu: commit nhỏ, rõ nghĩa, thể hiện tiến độ học tập và thực hành từng bước.
 
 ## Nhóm Commit Nền Tảng
-- `chore: initialize qa portfolio repository structure`
-- `docs: add root README with portfolio goals and review guide`
-- `docs: add phased learning roadmap for qa portfolio`
+- `chore: initialize qa project repository structure`
+- `docs: add root README with project goals and review guide`
+- `docs: add phased learning roadmap for qa project`
 - `docs: add gradual commit strategy and milestone plan`
 
 ## Project 01 - Web Manual Testing
@@ -46,7 +46,7 @@ Mục tiêu: commit nhỏ, rõ nghĩa, thể hiện tiến độ học tập và
 - `ci: add pipeline artifact publishing configuration`
 - `docs(project-05): add ci cd integration notes and future plan`
 
-## Hoàn Thiện Portfolio
+## Hoàn Thiện Project
 - `docs: update cross-project progress matrix`
 - `docs: polish recruiter review section and navigation`
-- `docs: add final portfolio summary and next goals`
+- `docs: add final project summary and next goals`

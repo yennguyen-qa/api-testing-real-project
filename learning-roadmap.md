@@ -1,6 +1,6 @@
 ﻿# Lộ Trình Học Tập
 
-Tài liệu này mô tả kế hoạch phát triển portfolio QA theo từng giai đoạn.
+Tài liệu này mô tả kế hoạch phát triển project QA theo từng giai đoạn.
 
 ## Giai Đoạn 1: Nền Tảng Manual Testing
 Mục tiêu:
@@ -32,7 +32,7 @@ Trọng tâm:
 - Test summary report
 
 Kết quả đầu ra:
-- Tài liệu trong `projects/01-ecommerce-web-manual-testing/docs/`
+- Tài liệu trong `projects/01-hotel-booking-web-manual-testing/docs/`
 - Bằng chứng trong `evidence/`
 
 Dấu hiệu hoàn thành:
@@ -108,7 +108,7 @@ Kết quả đầu ra:
 Dấu hiệu hoàn thành:
 - Test tự động chạy được trên pipeline, có artifact để review.
 
-## Giai Đoạn 7: Hoàn Thiện Portfolio
+## Giai Đoạn 7: Hoàn Thiện Project
 Mục tiêu:
 - Tối ưu repository để sẵn sàng cho recruiter/interviewer.
 
@@ -121,6 +121,3 @@ Trọng tâm:
 Kết quả đầu ra:
 - Tài liệu được rà soát và hoàn thiện xuyên suốt các project
 - Tổng kết kỹ năng và bài học rút ra
-
-Dấu hiệu hoàn thành:
-- Portfolio dễ review, có chiều sâu kỹ thuật và sẵn sàng phỏng vấn.
