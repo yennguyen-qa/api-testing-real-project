@@ -1,6 +1,6 @@
 ﻿# Project API Testing - Dự Án Thực Tế
 
-Tên repository: `api-testing-real-projects`
+Tên repository: `api-testing-real-project`
 
 ## Project Này Dành Cho cá nhân
 Repository này được xây dựng cho:
