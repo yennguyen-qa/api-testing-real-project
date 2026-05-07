@@ -1,0 +1,16 @@
+﻿{
+  "name": "ui-automation-playwright-typescript",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Starter scaffold for UI automation portfolio project.",
+  "scripts": {
+    "test": "playwright test",
+    "test:ui": "playwright test tests/ui",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.54.0",
+    "typescript": "^5.8.0",
+    "ts-node": "^10.9.2"
+  }
+}
